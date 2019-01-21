@@ -1,4 +1,3 @@
-from flask import Flask
 from random import choice
 
 def InitializeGrid(board):
@@ -235,7 +234,7 @@ board = [[0,0,0,0,0,0,0,0],
 #Initialize game
 Initialize(board)
 
-score = 50
+score = 0
 goalscore = 100
 
 #While game not over
