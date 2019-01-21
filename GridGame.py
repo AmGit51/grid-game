@@ -39,7 +39,7 @@ def DrawBoard(board):
         linetodraw+= " | "
         print(linetodraw)
         print("-------------------------------------")
-    print("  a  b  c  d  e  f  g  h")
+    print("    a    b    c    d    e    f    g    h")
     global score
     print("Current Score: ", score)
 
