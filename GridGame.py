@@ -1,3 +1,4 @@
+from flask import Flask
 from random import choice
 
 def InitializeGrid(board):
